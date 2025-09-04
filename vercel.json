@@ -1,9 +1,10 @@
 {
   "version": 2,
   "builds": [
-    { "src": "vercel/requirements.txt", "use": "@vercel/python" }
+    { "src": "requirements.txt", "use": "@vercel/python" }
   ],
   "routes": [
     { "src": "/api/(.*)", "dest": "/api/$1" }
   ]
 }
+
